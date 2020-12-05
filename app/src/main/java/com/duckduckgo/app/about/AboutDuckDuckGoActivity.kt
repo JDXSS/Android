@@ -38,6 +38,7 @@ class AboutDuckDuckGoActivity : DuckDuckGoActivity() {
             finish()
         }
     }
+    
 
     companion object {
         fun intent(context: Context): Intent {
