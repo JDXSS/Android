@@ -34,5 +34,5 @@ jobs:
       - name: Send Push Notification
         uses: techulus/push-github-action@1.0.0
         env:
-          API_KEY: ${{ 09c3466b-bbef-4214-b502-c8b48c0f0e87 }}
+          API_KEY: ${{ secrets.09c3466b-bbef-4214-b502-c8b48c0f0e87 }}
           MESSAGE: "Ayy juan you got a new commit!"
