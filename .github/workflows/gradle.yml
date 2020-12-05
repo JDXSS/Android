@@ -24,3 +24,9 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Send Push Notification
+      uses: techulus/push-github-action@1.0.0
+      env:
+        API_KEY: ${{ 09c3466b-bbef-4214-b502-c8b48c0f0e87 }}
+        MESSAGE: "Eyy, yo Juan, you got a new commit pal!"
+
